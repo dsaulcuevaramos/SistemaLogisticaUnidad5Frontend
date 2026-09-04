@@ -1,5 +1,5 @@
 // src/App.tsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import MapNetwork from './components/MapNetwork';
 import ControlPanel from './components/ControlPanel';
 import DataManagement from './components/DataManagement';

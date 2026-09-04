@@ -1,5 +1,4 @@
 // src/components/MapNetwork.tsx
-import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup, Polyline, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import type{ LatLngExpression, LeafletMouseEvent } from 'leaflet';
