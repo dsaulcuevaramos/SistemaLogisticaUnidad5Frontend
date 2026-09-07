@@ -79,7 +79,7 @@ export default function App() {
   const handleOptimize = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://https://sistemalogisticaunidad5backend.onrender.com/api/optimize-network', {
+      const response = await fetch('https://sistemalogisticaunidad5backend.onrender.com/api/optimize-network', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nodes, flows, p_hubs: pHubs, alpha })
